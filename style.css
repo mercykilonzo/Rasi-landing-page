@@ -1,0 +1,592 @@
+body{
+    overflow-x: hidden;
+    font-size: larger;
+}
+.header{
+    height: 50px;
+    background-color: rgb(141, 168, 101);
+    margin-top: 0%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: larger;
+
+}
+.home{
+    background-image: url(Images/couch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+    height: 600px;
+    padding: 40px;
+    font-size: larger;
+
+    
+}
+nav{
+    gap: 40px;
+    display: flex;
+    margin-top: 25px;
+    color: white;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.timelessArtistry{
+    display: flex;
+    gap: 70px;
+    padding: 40px 100px;
+}
+.IndiaNo1{
+    height: 100px;
+    /* border: 2px solid; */
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 60px;
+
+}
+.services{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(214, 226, 217);
+    height: 150px;
+    padding: 30px 70px;
+}
+.screenPrinting{
+    display: flex;
+    gap: 70px;
+    padding: 0px 150px;
+    text-align: left;
+}
+#printingImages{
+    height: 400px;
+}
+.printingTechniques{
+    text-align: center;
+    margin: 90px 0px;
+}
+.clientPraise{
+    text-align: center;
+}
+.clientLogos{
+    display: flex;
+    gap: 60px;
+    padding: 0px 110px;
+
+}
+#clientLogos{
+    display: flex;
+}
+#logo{
+    height: 130px;
+}
+.stars{
+    color: rgb(117, 206, 129);
+}
+#highprintingimage{
+    height: 400px;
+    width: 150%;
+}
+.qualityPrinting{
+    display: flex;
+    gap: 70px;
+    padding: 110px;
+
+}
+
+.logo{
+     display: flex;
+     gap: 30px;
+     padding: 110px;
+}
+#showcaseImages{
+    height: 400px;
+    width: 400px;
+}
+.showcaseImages{
+    display: flex;
+    gap: 40px;
+    padding: 5px 110px;
+}
+#showCaseImage4{
+    width: 80%;
+    padding: 5px 110px;
+}
+.showcasing{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contactUs{
+    display: flex;
+    gap: 10px;
+}
+.googleMaptext{
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    border-radius: 40px;
+}
+
+
+.reachOut{
+    padding: 0px 120px 90px;
+    text-align: center;
+
+}
+
+.googleMap{
+    background-image: url(Images/Contact_Map.max-1280x720.png);
+    background-repeat: repeat;
+    height: 500px;
+    width: 90%;
+    padding: 50px;
+
+}
+.footer{
+    text-align: center;
+    background-color: rgb(21, 29, 17);
+    color: white;
+    height: 520px;
+    
+
+}
+
+.footerText{
+    display: flex;
+    gap: 50px;
+    padding: 60px;
+    text-align: left;
+}
+.contacts{
+    display: flex;
+    gap: 40px;
+}
+
+#rasilogo{
+    height: 250px;
+}
+h1{
+    font-size: 60px;
+}
+#contactButton{
+    height: 70px;
+    width: 21%;
+    background-color: gray;
+    color: white;
+    filter: opacity(80%);
+    
+}
+#knowMore{
+    height: 70px;
+    width: 25%;
+    background-color: rgb(69, 204, 42);
+    color: white;
+    border-radius: 30px;
+
+}
+#contactbutton{
+    height: 70px;
+    width: 25%;
+    border-radius: 30px;
+}
+.fa-arrow-right{
+    padding-left: 290px;
+    
+}
+@media screen and (max-width: 760px) {
+    .header{
+        height: 50px;
+        background-color: rgb(141, 168, 101);
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: large;
+        width: 100%;
+    
+    }
+    .home{
+        background-image: url(Images/couch.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        margin-bottom: 80px;
+        height: 900px;
+        padding: 10px;
+        font-size: larger;
+        width: 95%;
+    
+        
+    }
+    nav{
+        
+        display: block;
+        margin-top: 25px;
+        color: white;
+    
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .navigation{
+        display: flex;
+        gap: 3%;
+        justify-content: space-between;
+    }
+    .timelessArtistry{
+        display: block;
+        padding: 5px;
+        width: 100%;
+    }
+    .IndiaNo1{
+        height: 100px;
+        width: 100%;
+        border-bottom: 2px solid;
+        border-top: 2px solid;
+        text-align: center;
+        font-size: large;
+        margin-bottom: 60px;
+    
+    }
+    .services{
+        display: block;
+        background-color: rgb(214, 226, 217);
+        height: 450px;
+        padding: 20px;
+        width: 95%;
+    }
+    .screenPrinting{
+        display: block;
+        padding: 0px 10px;
+        text-align: left;
+        width: 100%;
+    }
+    #printingImages{
+        height: 350px;
+    }
+    .printingTechniques{
+        text-align: left;
+        margin: 90px50px;
+        width: 100%;
+    }
+    .clientPraise{
+        text-align: left;
+        width: 100%;
+
+
+    }
+    .clientLogos{
+        display: block;
+        padding: 0px;
+        text-align: left;
+    
+    }
+    #clientLogos{
+        display: flex;
+        width: 100%;
+    }
+    #logo{
+        height: 130px;
+    }
+    .stars{
+        color: rgb(117, 206, 129);
+    }
+    #highprintingimage{
+        height: 400px;
+        width: 110%;
+    }
+    .qualityPrinting{
+        display: block;
+        padding: 10px;
+    
+    }
+    
+    .logo{
+         display: block;
+         padding: 60px;
+    }
+    #showcaseImages{
+        height: 400px;
+        width: 400px;
+    }
+    .showcaseImages{
+        display: block;
+        padding: 5px 0px;
+    }
+    #showCaseImage4{
+        width: 100%;
+        padding: 5px 5px;
+    }
+    .showcasing{
+        padding-top: 40px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .contactUs{
+        display: flex;
+        gap: 10px;
+    }
+    .googleMaptext{
+        background-color: white;
+        padding: 10px;
+        width: 100%;
+        border-radius: 40px;
+    }
+    
+    
+    .reachOut{
+        padding: 2px;
+        text-align: center;
+    
+    }
+    
+    .googleMap{
+        background-image: url(Images/Contact_Map.max-1280x720.png);
+        background-repeat: repeat;
+        height: 500px;
+        width: 70%;
+        padding: 50px;
+    
+    }
+    .footer{
+        text-align: center;
+        background-color: rgb(21, 29, 17);
+        color: white;
+        height: 450%;
+        
+    
+    }
+    
+    .footerText{
+        display: block;
+        padding: 20px;
+        text-align: left;
+    }
+    .contacts{
+        display: block;
+    }
+    
+    #rasilogo{
+        height: 250px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+
+}
+
+@media screen  and  (max-width: 1200px)  and (min-width: 761px) {
+
+       .header{
+        height: 50px;
+        background-color: rgb(141, 168, 101);
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: large;
+        width: 100%;
+    
+    }
+    .home{
+        background-image: url(Images/couch.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        margin-bottom: 80px;
+        height: 900px;
+        padding: 10px;
+        font-size: larger;
+        width: 98%;
+    
+        
+    }
+    nav{
+        
+        display: block;
+        margin-top: 25px;
+        color: white;
+    
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .navigation{
+        display: flex;
+        gap: 3%;
+        justify-content: space-between;
+    }
+    .timelessArtistry{
+        display: block;
+        padding: 20px;
+        width: 100%;
+    }
+    .IndiaNo1{
+        height: 100px;
+        width: 100%;
+        border-bottom: 2px solid;
+        border-top: 2px solid;
+        text-align: center;
+        font-size: large;
+        margin-bottom: 60px;
+    
+    }
+    .services{
+        display: block;
+        background-color: rgb(214, 226, 217);
+        height: 600px;
+        padding: 20px;
+        width: 95%;
+    }
+    .screenPrinting{
+        display: block;
+        padding: 10px 20px;
+        text-align: left;
+        width: 100%;
+    }
+    #printingImages{
+        height: 500px;
+    }
+    .printingTechniques{
+        text-align: left;
+        margin: 90px 30px;
+        width: 100%;
+    }
+    .clientPraise{
+        text-align: left;
+        width: 100%;
+
+
+    }
+    .clientLogos{
+        display: block;
+        padding: 20px;
+        text-align: left;
+    
+    }
+    #clientLogos{
+        display: flex;
+        width: 100%;
+    }
+    #logo{
+        height: 130px;
+    }
+    .stars{
+        color: rgb(117, 206, 129);
+    }
+    #highprintingimage{
+        height: 400px;
+        width: 110%;
+    }
+    .qualityPrinting{
+        display: block;
+        padding: 9px;
+    
+    }
+    
+    .logo{
+         display: block;
+         padding: 60px;
+    }
+    #showcaseImages{
+        height: 400px;
+        width: 600px;
+    }
+    .showcaseImages{
+        display: block;
+        padding: 20px 50px;
+    }
+    #showCaseImage4{
+        width: 90%;
+        padding: 20px;
+    }
+    .showcasing{
+        padding-top: 40px;
+        text-align: left;
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .contactUs{
+        display: flex;
+        gap: 10px;
+    }
+    .googleMaptext{
+        background-color: white;
+        padding: 10px;
+        width: 70%;
+        border-radius: 40px;
+    }
+    
+    
+    .reachOut{
+        padding: 30px;
+        text-align: center;
+    
+    }
+    
+    .googleMap{
+        background-image: url(Images/Contact_Map.max-1280x720.png);
+        background-repeat: repeat;
+        height: 500px;
+        width: 80%;
+        padding: 70px;
+    
+    }
+    .footer{
+        text-align: center;
+        background-color: rgb(21, 29, 17);
+        color: white;
+        height: 1500px;
+        width: 100%;
+        
+    
+    }
+    
+    .footerText{
+        display: block;
+        padding: 50px;
+        text-align: left;
+        
+    }
+    .contacts{
+        display: block;
+    }
+    
+    #rasilogo{
+        height: 250px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+ 
+
+}
+
